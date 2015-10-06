@@ -42,7 +42,7 @@
         android:textSize="35dp"
         android:layout_x="65dp"
         android:layout_y="244dp"
-        android:background="@drawable/team2"/> //jpg로 확장자 변경
+        android:background="@drawable/team2"/> //jpg로 확장자 변경//
 
     <Button
         android:layout_width="305dp"
