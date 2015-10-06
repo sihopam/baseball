@@ -97,7 +97,7 @@ public class team1 extends AppCompatActivity {
     }
     private void killPlayer(){
         if(music!=null){
-            music.release();
+            music.release(); //
             music = null;
         }
     }
