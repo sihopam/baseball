@@ -16,6 +16,11 @@
         android:layout_weight="0.29"
         android:gravity="center" />
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_weight="0.27"></TableLayout>
+
     <ImageButton
         android:layout_width="190dp"
         android:layout_height="261dp"
@@ -23,7 +28,7 @@
         android:onClick="button"
         android:nestedScrollingEnabled="false"
         android:background="@drawable/kangminho"
-        android:layout_gravity="center_vertical" />
+        android:layout_gravity="right" />
 
     <ImageButton
         android:layout_width="wrap_content"

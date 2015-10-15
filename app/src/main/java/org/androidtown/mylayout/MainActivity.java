@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -32,14 +31,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         ImageButton button2 = (ImageButton) findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
+                button2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v){
             Intent intent2 = new Intent(MainActivity.this, team2.class);
             startActivity(intent2);
             }
         });
-       Button button3 = (Button) findViewById(R.id.button3);
+       ImageButton button3 = (ImageButton) findViewById(R.id.button3);
+        //Button button3 = (Button) findViewById(R.id.button3);
         button3.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent3);
             }
         });
-        Button button4 = (Button) findViewById(R.id.button4);
+        ImageButton button4 = (ImageButton) findViewById(R.id.button4);
+        //Button button4 = (Button) findViewById(R.id.button4);
         button4.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -55,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent4);
             }
         });
-        Button button5 = (Button) findViewById(R.id.button5);
+        ImageButton button5 = (ImageButton) findViewById(R.id.button5);
+        //Button button5 = (Button) findViewById(R.id.button5);
         button5.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -63,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent5);
             }
         });
-        Button button6 = (Button) findViewById(R.id.button6);
+        ImageButton button6 = (ImageButton) findViewById(R.id.button6);
+       // Button button6 = (Button) findViewById(R.id.button6);
         button6.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -71,7 +74,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent6);
             }
         });
-        Button button7 = (Button) findViewById(R.id.button7);
+        ImageButton button7 = (ImageButton) findViewById(R.id.button7);
+       // Button button7 = (Button) findViewById(R.id.button7);
         button7.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -79,7 +83,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent7);
             }
         });
-        Button button8 = (Button) findViewById(R.id.button8);
+        ImageButton button8 = (ImageButton) findViewById(R.id.button8);
+        //Button button8 = (Button) findViewById(R.id.button8);
         button8.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -87,7 +92,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent8);
             }
         });
-        Button button9 = (Button) findViewById(R.id.button9);
+        ImageButton button9 = (ImageButton) findViewById(R.id.button9);
+       // Button button9 = (Button) findViewById(R.id.button9);
         button9.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
@@ -95,7 +101,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent9);
             }
         });
-        Button button10 = (Button) findViewById(R.id.button10);
+        ImageButton button10 = (ImageButton) findViewById(R.id.button10);
+        //Button button10 = (Button) findViewById(R.id.button10);
         button10.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
