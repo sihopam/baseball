@@ -1,39 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
     android:id="@+id/team1"
     android:baselineAligned="false"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="708dp"
+        android:layout_marginTop="100dp">
+
+        <ImageButton
+            android:layout_width="215dp"
+            android:layout_height="210dp"
+            android:id="@+id/imageButton"
+            android:layout_alignTop="@+id/imageButton2"
+            android:layout_toRightOf="@+id/imageButton2"
+            android:background="@drawable/kimtakyun"
+            android:layout_above="@+id/imageButton3"
+            android:layout_gravity="left|top"
+            android:onClick="button" />
+
+        <ImageButton
+            android:layout_width="217dp"
+            android:layout_height="211dp"
+            android:id="@+id/imageButton2"
+            android:background="@drawable/choijinhang"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/textView2"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="button2" />
+
+        <ImageButton
+            android:layout_width="217dp"
+            android:layout_height="211dp"
+            android:id="@+id/imageButton3"
+            android:layout_below="@+id/imageButton2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/joinsung"
+            android:layout_toStartOf="@+id/imageButton"
+            android:layout_gravity="right|top"
+            android:onClick="button3" />
+
+        <ImageButton
+            android:layout_width="210dp"
+            android:layout_height="203dp"
+            android:id="@+id/imageButton4"
+            android:layout_below="@+id/imageButton2"
+            android:layout_toRightOf="@+id/imageButton3"
+            android:background="@drawable/joohyunsang"
+            android:layout_gravity="left|center_vertical"
+            android:onClick="button4" />
+
+        <ImageButton
+            android:layout_width="217dp"
+            android:layout_height="209dp"
+            android:id="@+id/imageButton5"
+            android:layout_below="@+id/imageButton3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/junggeunwoo"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageButton4"
+            android:layout_toStartOf="@+id/imageButton4"
+            android:layout_gravity="center"
+            android:onClick="button5"/>
+
+        <ImageButton
+            android:layout_width="225dp"
+            android:layout_height="202dp"
+            android:id="@+id/imageButton6"
+            android:background="@drawable/kimkyungun"
+            android:layout_below="@+id/imageButton4"
+            android:layout_toRightOf="@+id/imageButton5"
+            android:layout_gravity="right|center_vertical"
+            android:onClick="button6"/>
+
+        <ImageButton
+            android:layout_width="204dp"
+            android:layout_height="196dp"
+            android:id="@+id/imageButton7"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toRightOf="@+id/imageButton4"
+            android:layout_toEndOf="@+id/imageButton4"
+            android:background="@drawable/leesungyul"
+            android:layout_gravity="left|bottom"
+            android:onClick="button7"/>
+
+        <ImageButton
+            android:layout_width="212dp"
+            android:layout_height="209dp"
+            android:id="@+id/imageButton8"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/imageButton"
+            android:layout_toEndOf="@+id/imageButton"
+            android:background="@drawable/leeyonggyu"
+            android:layout_gravity="center_horizontal|bottom"
+            android:onClick="button8"/>
+
+        <ImageButton
+            android:layout_width="215dp"
+            android:layout_height="210dp"
+            android:id="@+id/imageButton9"
+            android:layout_below="@+id/yeonjeong"
+            android:layout_toRightOf="@+id/imageButton4"
+            android:layout_toEndOf="@+id/imageButton4"
+            android:background="@drawable/songjuho"
+            android:layout_gravity="right|bottom"
+            android:onClick="button9"/>
+    </FrameLayout>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="590dp"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="한화 이글즈"
         android:id="@+id/textView2"
         android:layout_weight="0.29"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="248dp"
-        android:layout_weight="0.27"></TableLayout>
-
-    <ImageButton
-        android:layout_width="190dp"
-        android:layout_height="261dp"
-        android:id="@+id/imageButton"
-        android:onClick="button"
-        android:nestedScrollingEnabled="false"
-        android:background="@drawable/kangminho"
-        android:layout_gravity="right" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
-        android:layout_gravity="right" />
-
-</LinearLayout>
+</FrameLayout>
