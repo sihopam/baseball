@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="76dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="넥센"
+        android:text="넥센 히어로즈"
         android:id="@+id/textView9"
         android:layout_gravity="center_horizontal"
         android:textSize="50dp"
@@ -17,78 +17,85 @@
     <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="100dp"
+        android:background="#ffffff">
 
         <ImageButton
-            android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_width="176dp"
+            android:layout_height="232dp"
             android:id="@+id/Button81"
             android:layout_gravity="left|top"
-            android:background="@drawable/kimhasung8"
+            android:background="@drawable/kimhasung_name"
             android:onClick="Button81" />
 
         <ImageButton
-            android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_width="176dp"
+            android:layout_height="232dp"
             android:id="@+id/Button82"
             android:layout_gravity="center_horizontal|top"
-            android:background="@drawable/kimminsung8"
+            android:background="@drawable/kimminsung_name"
             android:onClick="Button82" />
 
         <ImageButton
-            android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_width="176dp"
+            android:layout_height="232dp"
             android:id="@+id/Button83"
             android:layout_gravity="right|top"
-            android:background="@drawable/kojongwook8"
+            android:background="@drawable/kojongwook_name"
             android:onClick="Button83" />
 
         <ImageButton
             android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_height="232dp"
             android:id="@+id/Button84"
             android:layout_gravity="left|center_vertical"
-            android:background="@drawable/parkbyungho8"
-            android:onClick="Button84" />
+            android:background="@drawable/parkbyungho_name"
+            android:onClick="Button84"
+            android:layout_marginBottom="15dp" />
 
         <ImageButton
             android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_height="232dp"
             android:id="@+id/Button85"
             android:layout_gravity="center"
-            android:background="@drawable/parkdongwon8"
-            android:onClick="Button85" />
+            android:background="@drawable/parkdongwon_name"
+            android:onClick="Button85"
+            android:layout_marginBottom="15dp" />
 
         <ImageButton
             android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_height="232dp"
             android:id="@+id/Button86"
             android:layout_gravity="right|center_vertical"
-            android:background="@drawable/seogunchang8"
-            android:onClick="Button86" />
+            android:background="@drawable/seogunchang_name"
+            android:onClick="Button86"
+            android:layout_marginBottom="15dp" />
 
         <ImageButton
             android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_height="232dp"
             android:id="@+id/Button87"
             android:layout_gravity="left|bottom"
-            android:background="@drawable/snider8"
-            android:onClick="Button87" />
+            android:background="@drawable/snider_name"
+            android:onClick="Button87"
+            android:layout_marginBottom="25dp" />
 
         <ImageButton
             android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_height="232dp"
             android:id="@+id/Button88"
             android:layout_gravity="center_horizontal|bottom"
-            android:background="@drawable/yoohanjun8"
-            android:onClick="Button88" />
+            android:background="@drawable/yoohanjun_name"
+            android:onClick="Button88"
+            android:layout_marginBottom="25dp" />
 
         <ImageButton
             android:layout_width="180dp"
-            android:layout_height="200dp"
+            android:layout_height="232dp"
             android:id="@+id/Button89"
             android:layout_gravity="right|bottom"
-            android:background="@drawable/yoonsukmin8"
-            android:onClick="Button89" />
+            android:background="@drawable/yoonsukmin_name"
+            android:onClick="Button89"
+            android:layout_marginBottom="25dp" />
     </FrameLayout>
 </FrameLayout>

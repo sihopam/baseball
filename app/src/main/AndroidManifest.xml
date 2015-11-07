@@ -10,24 +10,36 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
-        <activity android:name=".Splash" />
-        <activity android:name=".team1"/>
-        <activity android:name=".team2"/>
-        <activity android:name=".team3"/>
-        <activity android:name=".team4"/>
-        <activity android:name=".team5"/>
-        <activity android:name=".team6"/>
-        <activity android:name=".team7"/>
-        <activity android:name=".team8"/>
-        <activity android:name=".team9"/>
-        <activity android:name=".team10"/>
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team1"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team4"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team5"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team6"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team7"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team8"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team9"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".team10"
+            android:screenOrientation="portrait"/>
 
     </application>
 
