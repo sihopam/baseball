@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1">
@@ -13,4 +13,82 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.12"
         android:textSize="60dp" />
-</LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="698dp"
+        android:layout_gravity="bottom|center_horizontal">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button51"
+            android:layout_gravity="left|top"
+            android:background="@drawable/himenes5"
+            android:onClick="Button51" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button52"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/leebyunggyu5"
+            android:onClick="Button52" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/B3utton5"
+            android:layout_gravity="right|top"
+            android:background="@drawable/leejinyoung5"
+            android:onClick="Button53" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button54"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/ohjihwan5"
+            android:onClick="Button54" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button55"
+            android:layout_gravity="center"
+            android:background="@drawable/parkjigyu5"
+            android:onClick="Button55" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button56"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/parkyongtak5"
+            android:onClick="Button56" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button57"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/seosanghoon5"
+            android:onClick="Button57" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button58"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/yangsukhwan5"
+            android:onClick="Button58" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button59"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/yoogangnam5"
+            android:onClick="Button59" />
+    </FrameLayout>
+</FrameLayout>
