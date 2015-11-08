@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent4 = new Intent(MainActivity.this, team4.class);
                 startActivity(intent4);
+
             }
         });
         ImageButton button5 = (ImageButton) findViewById(R.id.button5);
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent5 = new Intent(MainActivity.this, team5.class);
                 startActivity(intent5);
+
             }
         });
         ImageButton button6 = (ImageButton) findViewById(R.id.button6);
@@ -72,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent6 = new Intent(MainActivity.this, team6.class);
                 startActivity(intent6);
+                overridePendingTransition(R.anim.fade, R.anim.cycle_7);
+
             }
         });
         ImageButton button7 = (ImageButton) findViewById(R.id.button7);
@@ -81,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent7 = new Intent(MainActivity.this, team7.class);
                 startActivity(intent7);
+
             }
         });
         ImageButton button8 = (ImageButton) findViewById(R.id.button8);
