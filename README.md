@@ -1,5 +1,6 @@
-개선
+응원가
 
-activity lifecycle 관련해서 
-device sleep 했을 때 노래가 계속 재생됨 : onPause(), onResume() 해야할거같음
-그리고 전화가 온다던지 멈춰야할 때도 고려해서 onPause(), onResume() 해야할 듯
+1. activity lifecycle 
+device sleep 했을 때 노래가 계속 재생됨 : onPause(), onResume() 추가.
+- 수정해서 노래 정지. 
+- 화면 다시 켜지면 튕김
