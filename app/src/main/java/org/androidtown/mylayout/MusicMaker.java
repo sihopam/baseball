@@ -102,6 +102,33 @@ public class MusicMaker {
             case "yoogangnam5" :
                 c = R.raw.yoogangnam5;
                 break;
+            /*case "brown7" :
+                c = R.raw.;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;
+            case "" :
+                c = R.raw;
+                break;*/
             default:
                 c = 0;
                 break;

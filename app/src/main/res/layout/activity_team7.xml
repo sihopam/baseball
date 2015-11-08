@@ -1,13 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="94dp"
+        android:layout_height="78dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="SK"
         android:id="@+id/textView8"
-        android:layout_gravity="center_horizontal" />
-</LinearLayout>
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="709dp"
+        android:layout_gravity="bottom|center">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button71"
+            android:layout_gravity="left|top"
+            android:background="@drawable/brown7"
+            android:onClick="Button71" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button72"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/jodonghwa7"
+            android:onClick="Button72" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button73"
+            android:layout_gravity="right|top"
+            android:background="@drawable/jungeuiyun7"
+            android:onClick="Button73" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button74"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/junsangho7"
+            android:onClick="Button74" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button75"
+            android:layout_gravity="center"
+            android:background="@drawable/kimsunghyun7"
+            android:onClick="Button75" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button76"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/leejaewon7"
+            android:onClick="Button76" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button77"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/leemyunggi7"
+            android:onClick="Button77" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button78"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/najuhwan7"
+            android:onClick="Button78" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button79"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/parkjungkwon7"
+            android:onClick="Button79" />
+    </FrameLayout>
+</FrameLayout>
