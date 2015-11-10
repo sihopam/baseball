@@ -35,11 +35,11 @@ public class team1 extends AppCompatActivity {
         music3.setLooping(false);
         button3 = (ImageButton) findViewById(R.id.imageButton3);
 
-        music4 = MediaPlayer.create(this, R.raw.joohyungsang);
+        music4 = MediaPlayer.create(this, R.raw.joinsung);
         music4.setLooping(false);
         button4 = (ImageButton) findViewById(R.id.imageButton4);
 
-        music5 = MediaPlayer.create(this, R.raw.junkeunwoo);
+        music5 = MediaPlayer.create(this, R.raw.joinsung);
         music5.setLooping(false);
         button5 = (ImageButton) findViewById(R.id.imageButton5);
 

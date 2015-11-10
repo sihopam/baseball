@@ -98,7 +98,7 @@
             android:layout_below="@+id/textView2"
             android:layout_toRightOf="@+id/imageButton"
             android:layout_toEndOf="@+id/imageButton"
-            android:background="@drawable/leeyonggyu"
+            android:background="@drawable/leeyongkyu"
             android:layout_gravity="center_horizontal|bottom"
             android:onClick="button8"/>
 

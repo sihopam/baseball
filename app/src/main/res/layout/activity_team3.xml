@@ -1,13 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <ListView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listview"
-        android:layout_weight="0.16" />
+        android:layout_height="436dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/dd">
 
-</LinearLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton19"
+            android:layout_gravity="left|top"
+            android:background="@drawable/aduchi3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton20"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/choijunsuk3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton21"
+            android:layout_gravity="right|top"
+            android:background="@drawable/hwangjaegyun3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton22"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/junghoon3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton23"
+            android:layout_gravity="center"
+            android:background="@drawable/kangminho3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton24"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/kimdaewoo3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton25"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/kimmunho3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton26"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/mungyuhyun3"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton27"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/sonasub3"/>
+    </FrameLayout>
+</FrameLayout>

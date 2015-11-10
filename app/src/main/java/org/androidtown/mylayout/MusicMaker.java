@@ -191,8 +191,8 @@ public class MusicMaker {
             case "thames6" :
                 c = R.raw.thames6;
                 break;
+/*
 
-
             case "" :
                 c = R.raw.;
                 break;
@@ -220,7 +220,7 @@ public class MusicMaker {
             case "" :
                 c = R.raw.;
                 break;
-
+*/
 
             case "kimhasung8" :
                 c = R.raw.kimhasung8;
