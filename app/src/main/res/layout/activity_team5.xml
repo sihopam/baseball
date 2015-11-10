@@ -24,7 +24,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button51"
             android:layout_gravity="left|top"
-            android:background="@drawable/himenes5"
+            android:background="@drawable/himenesname"
             android:onClick="Button51" />
 
         <ImageButton
@@ -32,7 +32,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button52"
             android:layout_gravity="center_horizontal|top"
-            android:background="@drawable/leebyunggyu5"
+            android:background="@drawable/leebyunggyuname"
             android:onClick="Button52" />
 
         <ImageButton
@@ -40,7 +40,7 @@
             android:layout_height="200dp"
             android:id="@+id/B3utton5"
             android:layout_gravity="right|top"
-            android:background="@drawable/leejinyoung5"
+            android:background="@drawable/leejinyoungname"
             android:onClick="Button53" />
 
         <ImageButton
@@ -48,7 +48,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button54"
             android:layout_gravity="left|center_vertical"
-            android:background="@drawable/ohjihwan5"
+            android:background="@drawable/ohjihwanname"
             android:onClick="Button54" />
 
         <ImageButton
@@ -56,7 +56,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button55"
             android:layout_gravity="center"
-            android:background="@drawable/parkjigyu5"
+            android:background="@drawable/parkjigyuname"
             android:onClick="Button55" />
 
         <ImageButton
@@ -64,7 +64,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button56"
             android:layout_gravity="right|center_vertical"
-            android:background="@drawable/parkyongtak5"
+            android:background="@drawable/parkyongtakname"
             android:onClick="Button56" />
 
         <ImageButton
@@ -72,7 +72,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button57"
             android:layout_gravity="left|bottom"
-            android:background="@drawable/seosanghoon5"
+            android:background="@drawable/seosangwooname"
             android:onClick="Button57" />
 
         <ImageButton
@@ -80,7 +80,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button58"
             android:layout_gravity="center_horizontal|bottom"
-            android:background="@drawable/yangsukhwan5"
+            android:background="@drawable/yangsukhwanname"
             android:onClick="Button58" />
 
         <ImageButton
@@ -88,7 +88,7 @@
             android:layout_height="200dp"
             android:id="@+id/Button59"
             android:layout_gravity="right|bottom"
-            android:background="@drawable/yoogangnam5"
+            android:background="@drawable/yooganamname"
             android:onClick="Button59" />
     </FrameLayout>
 </FrameLayout>

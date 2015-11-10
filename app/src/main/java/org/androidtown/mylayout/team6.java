@@ -3,7 +3,6 @@ package org.androidtown.mylayout;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 
 /**
@@ -64,13 +63,25 @@ public class team6 extends AppCompatActivity{
         count=m.count();
     }
 
-    protected void onStop() {
-        super.onStop();
-        m.killPlayer();
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
+
+    /*
+    protected void onStop() {
+            super.onStop();
+            m.killPlayer();
+        }
+    */
     protected void onPause() {
         super.onPause();
-        m.killPlayer();
+        music.stop();
+
+    }
+    protected  void onResume(){
+        super.onResume();
+        if(music!=null) music.start();
     }
     protected void onDestroy(){
         super.onDestroy();
