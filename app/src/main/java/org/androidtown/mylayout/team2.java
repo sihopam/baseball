@@ -10,9 +10,9 @@ import android.view.View;
  */
 public class team2 extends AppCompatActivity {
 
-    MediaPlayer player;
-
-    String url = "http://www.tigers.co.kr/upload/song/강한울-코리아 오 코리아.mp3";
+    MediaPlayer music=new MediaPlayer();
+    int count=0;
+    MusicMaker m=new MusicMaker();
 
     int position;
     @Override
@@ -20,48 +20,63 @@ public class team2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_team2);
     }
-    public void onButton1Clicked(View v){  //음악시작
-        try{
-            killPlayer();
-            player = new MediaPlayer();
-            player.setDataSource(url);
-            player.prepare();
-            player.start();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
+    public void Button21(View v){
+        music=m.play(music,"kanghanwool2",this,count);
+        count=m.count();
     }
-        private void killPlayer(){
-            if(player!=null){
-                player.release();
-                player = null;
-            }
-        }
-    public void onButton2Clicked(View v){
-        if (player!=null && player.isPlaying()) {
-            position = player.getCurrentPosition();
-            player.pause();
+    public void Button22(View v){
+        music=m.play(music,"kimjoochan2",this,count);
+        count=m.count();
+    }
+    public void Button23(View v){
+        music=m.play(music,"kimminwoo2",this,count);
+        count=m.count();
+    }
+    public void Button24(View v){
+        music=m.play(music,"kimwonsub2",this,count);
+        count=m.count();
+    }
+    public void Button25(View v){
+        music=m.play(music,"leebeomho2",this,count);
+        count=m.count();
+    }
+    public void Button26(View v){
+        music=m.play(music,"leehonggoo2",this,count);
+        count=m.count();
+    }
+    public void Button27(View v){
+        music=m.play(music,"najiwan2",this,count);
+        count=m.count();
+    }
+    public void Button28(View v){
+        music=m.play(music,"phil2",this,count);
+        count=m.count();
+    }
+    public void Button29(View v){
+        music=m.play(music,"shinjonggil2",this,count);
+        count=m.count();
+    }
 
-        }
-    }
-    public void onButton3Clicked(View v){
-        if (player != null && !player.isPlaying()) {
-            player.start();
-            player.seekTo(position);
-        }
-    }
-    public void onButton4Clicked(View v) {
 
-        if(player !=null && player.isPlaying()) {
-            player.stop();
-        }
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
-    @Override
-    protected void onDestroy() {
+    protected void onStop() {
+        super.onStop();
+        m.killPlayer();
+    }
+
+    protected  void onResume(){
+        super.onResume();
+        music=null;
+        count=0;
+    }
+    protected void onDestroy(){
         super.onDestroy();
-        killPlayer();
+        m.killPlayer();
     }
-    }
+
+}
 

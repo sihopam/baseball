@@ -1,7 +1,6 @@
 package org.androidtown.mylayout;
 
 import android.media.MediaPlayer;
-import android.media.SoundPool;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -11,71 +10,72 @@ import android.view.View;
  */
 
 public class team8 extends AppCompatActivity {
-    SoundPool pool;
-    int a;
-    MediaPlayer music;
+
+    MediaPlayer music=new MediaPlayer();
     int count=0;
-    MediaPlayer out;
-    MediaPlayer remember;
-    //MusicPlayer p= new MusicPlayer();
+    MusicMaker m=new MusicMaker();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_team8);
 
-        out=MediaPlayer.create(this,R.raw.najiwan);
-
     }
 
+    public void Button81(View v){
+        music=m.play(music,"kimhasung8",this,count);
+        count=m.count();
+    }
     public void Button82(View v){
-        //count++;
-        MusicPlayer p=new MusicPlayer();
-
-        int addr;
-        if(out.isPlaying()){
-            count=1;
-            remember= p.musicplay(out,count);
-            count++;
-            return;
-        }
-
-        addr=p.play(music,"leeyonggyu",this);
-        out=MediaPlayer.create(this,addr);
-        if(count==0)remember=p.musicplay(out,count);
-        if(count==2)out=p.musicplay(remember,count);
-
-        //out= p.play(music,"leeyonggyu",this);
-       // if(out.isPlaying()){
-       //     p.musicstop(out);
-       // }
+        music=m.play(music,"kimminsung8",this,count);
+        count=m.count();
+    }
+    public void Button83(View v){
+        music=m.play(music,"kojongwook8",this,count);
+        count=m.count();
+    }
+    public void Button84(View v){
+        music=m.play(music,"parkbyungho8",this,count);
+        count=m.count();
+    }
+    public void Button85(View v){
+        music=m.play(music,"parkdongwon8",this,count);
+        count=m.count();
+    }
+    public void Button86(View v){
+        music=m.play(music,"seogunchang8",this,count);
+        count=m.count();
+    }
+    public void Button87(View v){
+        music=m.play(music,"snider8",this,count);
+        count=m.count();
+    }
+    public void Button88(View v){
+        music=m.play(music,"yoohanjun8",this,count);
+        count=m.count();
+    }
+    public void Button89(View v){
+        music=m.play(music,"yoonsukmin8",this,count);
+        count=m.count();
     }
 
-    protected void killPlayer(){
-        if(out!=null){
-            out.release();
-            out=null;
-        }
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
-    protected void onDestroy() {
+    protected void onStop() {
+        super.onStop();
+        m.killPlayer();
+    }
+
+    protected  void onResume(){
+        super.onResume();
+        music=null;
+        count=0;
+    }
+    protected void onDestroy(){
         super.onDestroy();
-        killPlayer();
+        m.killPlayer();
     }
-
-
 
 }
-//getApplicationContext()
-/*   public void Button81(View v) {
-        pool = new SoundPool(1, AudioManager.STREAM_MUSIC, 0);
-        a = pool.load(this, R.raw.joohyungsang, 1);
-        pool.play(a, 1.0f, 1.0f, 0, 0, 1.0f);
-        int waitLimit=1000;
-        int waitCounter=0;
-        int throttle=10;
-        while(pool.play(a, 1.0f, 1.0f, 0, 0, 1.0f)==0&&waitCounter<waitLimit){
-            waitCounter++;
-            SystemClock.sleep((throttle));
-        }
-    }*/

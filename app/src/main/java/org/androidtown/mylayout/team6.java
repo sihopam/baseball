@@ -68,20 +68,15 @@ public class team6 extends AppCompatActivity{
         return super.clone();
     }
 
-    /*
     protected void onStop() {
             super.onStop();
             m.killPlayer();
         }
-    */
-    protected void onPause() {
-        super.onPause();
-        music.stop();
 
-    }
     protected  void onResume(){
         super.onResume();
-        if(music!=null) music.start();
+        music=null;
+        count=0;
     }
     protected void onDestroy(){
         super.onDestroy();

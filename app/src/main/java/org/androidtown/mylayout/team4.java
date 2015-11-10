@@ -56,9 +56,25 @@ public class team4 extends AppCompatActivity {
         music=m.play(music,"parksukmin",this,count);
         count=m.count();
     }
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+    protected void onStop() {
+        super.onStop();
+        m.killPlayer();
+    }
+
+    protected  void onResume(){
+        super.onResume();
+        music=null;
+        count=0;
+    }
     protected void onDestroy(){
         super.onDestroy();
         m.killPlayer();
     }
+
+
 
 }
