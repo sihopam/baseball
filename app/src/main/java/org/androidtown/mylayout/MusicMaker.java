@@ -191,36 +191,36 @@ public class MusicMaker {
             case "thames6" :
                 c = R.raw.thames6;
                 break;
-/*
 
-            case "" :
-                c = R.raw.;
+
+            case "brown7" :
+                c = R.raw.brown7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "choijung7" :
+                c = R.raw.choijung7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "jodonghwa7" :
+                c = R.raw.jodonghwa7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "jungsangho7" :
+                c = R.raw.jungsangho7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "kimsunghyun7" :
+                c = R.raw.kimsunghyun7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "leejaewon7" :
+                c = R.raw.leejaewon7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "leemyunggi7" :
+                c = R.raw.leemyunggi7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "najuhwan7" :
+                c = R.raw.najuhwan7;
                 break;
-            case "" :
-                c = R.raw.;
+            case "parkjunggwon7" :
+                c = R.raw.parkjunggwon7;
                 break;
-*/
+
 
             case "kimhasung8" :
                 c = R.raw.kimhasung8;

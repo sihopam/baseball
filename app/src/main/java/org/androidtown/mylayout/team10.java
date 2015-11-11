@@ -21,39 +21,39 @@ public class team10 extends AppCompatActivity{
     }
 
     public void Button01(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"danblack0",this,count);
         count=m.count();
     }
     public void Button02(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"hajunho0",this,count);
         count=m.count();
     }
     public void Button03(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"jangsungwoo0",this,count);
         count=m.count();
     }
     public void Button04(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"kimsanghyun0",this,count);
         count=m.count();
     }
     public void Button05(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"kimsayeon0",this,count);
         count=m.count();
     }
     public void Button06(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"leedaehyung0",this,count);
         count=m.count();
     }
     public void Button07(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"marte0",this,count);
         count=m.count();
     }
     public void Button08(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"parkkihyuk0",this,count);
         count=m.count();
     }
     public void Button09(View v){
-        music=m.play(music,"",this,count);
+        music=m.play(music,"parkkyungsoo0",this,count);
         count=m.count();
     }
 

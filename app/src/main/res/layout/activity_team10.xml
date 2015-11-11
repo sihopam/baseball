@@ -13,70 +13,79 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="423dp"
-        android:layout_gravity="center">
+        android:layout_height="696dp"
+        android:layout_gravity="bottom|center">
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton37"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button01"
             android:layout_gravity="left|top"
-            android:background="@drawable/danblack0"/>
+            android:background="@drawable/danblack0"
+            android:onClick="Button01" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton38"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button02"
             android:layout_gravity="center_horizontal|top"
-            android:background="@drawable/hajunho0"/>
+            android:background="@drawable/hajunho0"
+            android:onClick="Button02" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton39"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button03"
             android:layout_gravity="right|top"
-            android:background="@drawable/jangsungwoo0"/>
+            android:background="@drawable/jangsungwoo0"
+            android:onClick="Button03" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton40"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button04"
             android:layout_gravity="left|center_vertical"
-            android:background="@drawable/kimsanghyun0"/>
+            android:background="@drawable/kimsanghyun0"
+            android:onClick="Button04" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton41"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button05"
             android:layout_gravity="center"
-            android:background="@drawable/kimsayeon0"/>
+            android:background="@drawable/kimsayeon0"
+            android:onClick="Button05" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton42"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button06"
             android:layout_gravity="right|center_vertical"
-            android:background="@drawable/leedaehyung0"/>
+            android:background="@drawable/leedaehyung0"
+            android:onClick="Button06" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton43"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button07"
             android:layout_gravity="left|bottom"
-            android:background="@drawable/marte0"/>
+            android:background="@drawable/marte0"
+            android:onClick="Button07" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton44"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button08"
             android:layout_gravity="center_horizontal|bottom"
-            android:background="@drawable/parkkihyuk0"/>
+            android:background="@drawable/parkkihyuk0"
+            android:onClick="Button08" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton45"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:id="@+id/Button09"
             android:layout_gravity="right|bottom"
-            android:background="@drawable/parkkyungsoo0"/>
+            android:background="@drawable/parkkyungsoo0"
+            android:onClick="Button09" />
     </FrameLayout>
 </FrameLayout>

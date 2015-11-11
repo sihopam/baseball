@@ -21,39 +21,39 @@ public class team4 extends AppCompatActivity {
      }
 
     public void Button41(View v){
-        music=m.play(music,"chaetaein",this,count);
+        music=m.play(music,"chaetaein4",this,count);
         count=m.count();
     }
     public void Button42(View v){
-        music=m.play(music,"choihyungwoo",this,count);
+        music=m.play(music,"choihyungwoo4",this,count);
         count=m.count();
     }
     public void Button43(View v){
-        music=m.play(music,"kimsangsoo",this,count);
+        music=m.play(music,"kimsangsoo4",this,count);
         count=m.count();
     }
     public void Button44(View v){
-        music=m.play(music,"leejiyoung",this,count);
+        music=m.play(music,"leejiyoung4",this,count);
         count=m.count();
     }
     public void Button45(View v){
-        music=m.play(music,"leeseungyup",this,count);
+        music=m.play(music,"leeseungyup4",this,count);
         count=m.count();
     }
     public void Button46(View v){
-        music=m.play(music,"navaro",this,count);
+        music=m.play(music,"navaro4",this,count);
         count=m.count();
     }
     public void Button47(View v){
-        music=m.play(music,"parkhaemin",this,count);
+        music=m.play(music,"parkhaemin4",this,count);
         count=m.count();
     }
     public void Button48(View v){
-        music=m.play(music,"parkhani",this,count);
+        music=m.play(music,"parkhani4",this,count);
         count=m.count();
     }
     public void Button49(View v){
-        music=m.play(music,"parksukmin",this,count);
+        music=m.play(music,"parksukmin4",this,count);
         count=m.count();
     }
     protected Object clone() throws CloneNotSupportedException {

@@ -16,14 +16,15 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="698dp"
-        android:layout_gravity="bottom|center_horizontal">
+        android:layout_height="696dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/ddf">
 
         <ImageButton
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:id="@+id/Button51"
-            android:layout_gravity="left|top"
+            android:layout_gravity="top|left"
             android:background="@drawable/himenesname"
             android:onClick="Button51" />
 

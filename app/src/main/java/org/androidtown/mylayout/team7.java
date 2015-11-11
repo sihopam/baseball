@@ -24,11 +24,11 @@ public class team7 extends AppCompatActivity {
         count=m.count();
     }
     public void Button72(View v){
-        music=m.play(music,"jodonghwa7",this,count);
+        music=m.play(music,"choijung7",this,count);
         count=m.count();
     }
     public void Button73(View v){
-        music=m.play(music,"jungeuiyun7",this,count);
+        music=m.play(music,"jodonghwa7",this,count);
         count=m.count();
     }
     public void Button74(View v){

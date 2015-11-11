@@ -25,41 +25,41 @@ public class team6 extends AppCompatActivity{
 
     public void Button61(View v){
         //MusicMaker m=new MusicMaker();
-        music=m.play(music,"jisukhun",this,count);
+        music=m.play(music,"jisukhun6",this,count);
         count=m.count();
 
     }
 
     public void Button62(View v){
-        music=m.play(music,"kimjongho",this,count);
+        music=m.play(music,"kimjongho6",this,count);
         count=m.count();
     }
     public void Button63(View v){
-        music=m.play(music,"kimtaegun",this,count);
+        music=m.play(music,"kimtaegun6",this,count);
         count=m.count();
     }
     public void Button64(View v){
-        music=m.play(music,"leehojun",this,count);
+        music=m.play(music,"leehojun6",this,count);
         count=m.count();
     }
     public void Button65(View v){
-        music=m.play(music,"leejongwook",this,count);
+        music=m.play(music,"leejongwook6",this,count);
         count=m.count();
     }
     public void Button66(View v){
-        music=m.play(music,"nasungbeom",this,count);
+        music=m.play(music,"nasungbeom6",this,count);
         count=m.count();
     }
     public void Button67(View v){
-        music=m.play(music,"parkminwoo",this,count);
+        music=m.play(music,"parkminwoo6",this,count);
         count=m.count();
     }
     public void Button68(View v){
-        music=m.play(music,"sonsiheon",this,count);
+        music=m.play(music,"sonsiheon6",this,count);
         count=m.count();
     }
     public void Button69(View v){
-        music=m.play(music,"thames",this,count);
+        music=m.play(music,"thames6",this,count);
         count=m.count();
     }
 
