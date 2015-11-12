@@ -39,7 +39,7 @@ public class team6 extends AppCompatActivity{
         count=m.count();
     }
     public void Button64(View v){
-        music=m.play(music,"leehojun6",this,count);
+        music=m.play(music,"leehojoon6",this,count);
         count=m.count();
     }
     public void Button65(View v){

@@ -101,7 +101,7 @@ public class MusicMaker {
             case "kimmunho3" :
                 c = R.raw.kimmunho3;
                 break;
-            case "mungyuhyung3" :
+            case "mungyuhyun3" :
                 c = R.raw.mungyuhyun3;
                 break;
             case "sonasub3" :
@@ -287,7 +287,7 @@ public class MusicMaker {
             case "jangsungwoo0" :
                 c = R.raw.jansungwoo0;
                 break;
-            case "kimsanghyn0" :
+            case "kimsanghyun0" :
                 c = R.raw.kimsanghyun0;
                 break;
             case "kimsayeon0" :
