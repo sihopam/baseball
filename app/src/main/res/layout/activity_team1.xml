@@ -16,102 +16,102 @@
         <ImageButton
             android:layout_width="215dp"
             android:layout_height="210dp"
-            android:id="@+id/imageButton"
-            android:layout_alignTop="@+id/imageButton2"
-            android:layout_toRightOf="@+id/imageButton2"
+            android:id="@+id/Button11"
+            android:layout_alignTop="@+id/Button12"
+            android:layout_toRightOf="@+id/Button12"
             android:background="@drawable/kimtakyun"
-            android:layout_above="@+id/imageButton3"
+            android:layout_above="@+id/Button13"
             android:layout_gravity="left|top"
-            android:onClick="button" />
+            android:onClick="Button11" />
 
         <ImageButton
             android:layout_width="217dp"
             android:layout_height="211dp"
-            android:id="@+id/imageButton2"
+            android:id="@+id/Button12"
             android:background="@drawable/choijinhang"
             android:layout_alignParentTop="true"
             android:layout_toStartOf="@+id/textView2"
             android:layout_gravity="center_horizontal|top"
-            android:onClick="button2" />
+            android:onClick="Button12" />
 
         <ImageButton
             android:layout_width="217dp"
             android:layout_height="211dp"
-            android:id="@+id/imageButton3"
-            android:layout_below="@+id/imageButton2"
+            android:id="@+id/Button13"
+            android:layout_below="@+id/Button12"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:background="@drawable/joinsung"
-            android:layout_toStartOf="@+id/imageButton"
+            android:layout_toStartOf="@+id/Button11"
             android:layout_gravity="right|top"
-            android:onClick="button3" />
+            android:onClick="Button13" />
 
         <ImageButton
             android:layout_width="210dp"
             android:layout_height="203dp"
-            android:id="@+id/imageButton4"
-            android:layout_below="@+id/imageButton2"
-            android:layout_toRightOf="@+id/imageButton3"
+            android:id="@+id/Button14"
+            android:layout_below="@+id/Button12"
+            android:layout_toRightOf="@+id/Button13"
             android:background="@drawable/joohyunsang"
             android:layout_gravity="left|center_vertical"
-            android:onClick="button4" />
+            android:onClick="Button14" />
 
         <ImageButton
             android:layout_width="217dp"
             android:layout_height="209dp"
-            android:id="@+id/imageButton5"
-            android:layout_below="@+id/imageButton3"
+            android:id="@+id/Button15"
+            android:layout_below="@+id/Button13"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:background="@drawable/junggeunwoo"
             android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@+id/imageButton4"
-            android:layout_toStartOf="@+id/imageButton4"
+            android:layout_toLeftOf="@+id/Button14"
+            android:layout_toStartOf="@+id/Button14"
             android:layout_gravity="center"
-            android:onClick="button5"/>
+            android:onClick="Button15"/>
 
         <ImageButton
             android:layout_width="225dp"
             android:layout_height="202dp"
-            android:id="@+id/imageButton6"
+            android:id="@+id/Button16"
             android:background="@drawable/kimkyungun"
-            android:layout_below="@+id/imageButton4"
-            android:layout_toRightOf="@+id/imageButton5"
+            android:layout_below="@+id/Button14"
+            android:layout_toRightOf="@+id/Button15"
             android:layout_gravity="right|center_vertical"
-            android:onClick="button6"/>
+            android:onClick="Button16"/>
 
         <ImageButton
             android:layout_width="204dp"
             android:layout_height="196dp"
-            android:id="@+id/imageButton7"
+            android:id="@+id/Button17"
             android:layout_alignBottom="@+id/textView2"
-            android:layout_toRightOf="@+id/imageButton4"
-            android:layout_toEndOf="@+id/imageButton4"
+            android:layout_toRightOf="@+id/Button14"
+            android:layout_toEndOf="@+id/Button14"
             android:background="@drawable/leesungyul"
             android:layout_gravity="left|bottom"
-            android:onClick="button7"/>
+            android:onClick="Button17"/>
 
         <ImageButton
             android:layout_width="212dp"
             android:layout_height="209dp"
-            android:id="@+id/imageButton8"
+            android:id="@+id/Button18"
             android:layout_below="@+id/textView2"
-            android:layout_toRightOf="@+id/imageButton"
-            android:layout_toEndOf="@+id/imageButton"
+            android:layout_toRightOf="@+id/Button11"
+            android:layout_toEndOf="@+id/Button11"
             android:background="@drawable/leeyongkyu"
             android:layout_gravity="center_horizontal|bottom"
-            android:onClick="button8"/>
+            android:onClick="Button18"/>
 
         <ImageButton
             android:layout_width="215dp"
             android:layout_height="210dp"
-            android:id="@+id/imageButton9"
+            android:id="@+id/Button19"
             android:layout_below="@+id/yeonjeong"
-            android:layout_toRightOf="@+id/imageButton4"
-            android:layout_toEndOf="@+id/imageButton4"
+            android:layout_toRightOf="@+id/Button14"
+            android:layout_toEndOf="@+id/Button14"
             android:background="@drawable/songjuho"
             android:layout_gravity="right|bottom"
-            android:onClick="button9"/>
+            android:onClick="Button19"/>
     </FrameLayout>
 
     <TextView
