@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sad"
+    android:background="@drawable/korea">
+
+    <ImageButton
+        android:layout_width="121dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/hanhwa1"
+        android:layout_x="198dp"
+        android:layout_y="384dp" />
+
+    <ImageButton
+        android:layout_width="116dp"
+        android:layout_height="83dp"
+        android:id="@+id/imageButton3"
+        android:layout_x="143dp"
+        android:layout_y="584dp"
+        android:background="@drawable/kia1" />
+
+    <ImageButton
+        android:layout_width="105dp"
+        android:layout_height="88dp"
+        android:id="@+id/imageButton4"
+        android:layout_x="453dp"
+        android:layout_y="603dp"
+        android:background="@drawable/lotte1" />
+
+    <ImageButton
+        android:layout_width="98dp"
+        android:layout_height="77dp"
+        android:id="@+id/imageButton5"
+        android:layout_x="366dp"
+        android:layout_y="473dp"
+        android:background="@drawable/samsung1" />
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="97dp"
+        android:id="@+id/imageButton6"
+        android:layout_x="254dp"
+        android:layout_y="204dp"
+        android:background="@drawable/lg1" />
+
+    <ImageButton
+        android:layout_width="119dp"
+        android:layout_height="81dp"
+        android:id="@+id/imageButton7"
+        android:layout_x="467dp"
+        android:layout_y="517dp"
+        android:background="@drawable/nc1" />
+
+    <ImageButton
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:id="@+id/imageButton8"
+        android:layout_x="69dp"
+        android:layout_y="196dp"
+        android:background="@drawable/sk1" />
+
+    <ImageButton
+        android:layout_width="99dp"
+        android:layout_height="71dp"
+        android:id="@+id/imageButton9"
+        android:layout_x="146dp"
+        android:layout_y="181dp"
+        android:background="@drawable/nexen1" />
+
+    <ImageButton
+        android:layout_width="114dp"
+        android:layout_height="103dp"
+        android:id="@+id/imageButton10"
+        android:layout_x="234dp"
+        android:layout_y="95dp"
+        android:background="@drawable/doosan1" />
+
+    <ImageButton
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        android:id="@+id/imageButton11"
+        android:layout_x="148dp"
+        android:layout_y="260dp"
+        android:background="@drawable/kt1" />
+</AbsoluteLayout>
