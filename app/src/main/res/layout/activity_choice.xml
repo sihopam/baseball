@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/aa">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="220dp"
+        android:layout_height="270dp"
         android:text="Select team"
         android:id="@+id/choice1"
+        android:textSize="70dp"
+        android:onClick="select_team"
+        android:background="@drawable/button_select"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="130dp"
-        android:textSize="70dp"
-        android:onClick="select_team" />
+        android:layout_x="201dp"
+        android:layout_y="51dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="188dp"
+        android:layout_height="178dp"
         android:text="Search player"
         android:id="@+id/choice2"
         android:textSize="70dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:onClick="search_player" />
+        android:onClick="search_player"
+        android:layout_x="222dp"
+        android:layout_y="352dp"
+        android:background="@drawable/player_select" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="160dp"
+        android:layout_height="200dp"
         android:text="Map"
         android:id="@+id/choice3"
         android:textSize="70dp"
         android:layout_below="@+id/choice2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="112dp"
-        android:onClick="map" />
+        android:onClick="map"
+        android:layout_x="231dp"
+        android:layout_y="568dp"
+        android:background="@drawable/place" />
 
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/imageButton"
-        android:layout_below="@+id/choice3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
-</RelativeLayout>
+</AbsoluteLayout>

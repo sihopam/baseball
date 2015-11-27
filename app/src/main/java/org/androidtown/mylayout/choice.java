@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 ;
 
@@ -19,7 +19,7 @@ public class choice extends AppCompatActivity{
 
         startActivity(new Intent(this, Splash.class));
 
-        Button choice1 = (Button) findViewById(R.id.choice1);
+        ImageButton choice1 = (ImageButton) findViewById(R.id.choice1);
         choice1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,7 +27,7 @@ public class choice extends AppCompatActivity{
                 startActivity(intent1);
             }
         });
-        Button choice3 = (Button) findViewById(R.id.choice3);
+        ImageButton choice3 = (ImageButton) findViewById(R.id.choice3);
         choice3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

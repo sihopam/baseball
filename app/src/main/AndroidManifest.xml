@@ -39,6 +39,46 @@
             android:screenOrientation="portrait" />
         <activity android:name=".stadium_map"
             android:screenOrientation="portrait"/>
+        <activity android:name=".Pop1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop3"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop4"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop5"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop6"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop7"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop8"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop9"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+        <activity android:name=".Pop10"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
         <activity android:name=".choice"
             android:screenOrientation="portrait">
         <intent-filter>

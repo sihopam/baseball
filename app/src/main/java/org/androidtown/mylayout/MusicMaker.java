@@ -13,7 +13,7 @@ public class MusicMaker {
     MediaPlayer song,remember;
     int incount=0;
     String prev_name;
-    //int addr;
+
     public MediaPlayer play(MediaPlayer a,String b,Context context,int count) {
         song = a;
         name = b;

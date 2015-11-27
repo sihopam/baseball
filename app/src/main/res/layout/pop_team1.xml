@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="184dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="한화"
+        android:id="@+id/textView13"
+        android:layout_x="210dp"
+        android:layout_y="339dp"
+        android:textSize="40dp" />
+
+</AbsoluteLayout>
