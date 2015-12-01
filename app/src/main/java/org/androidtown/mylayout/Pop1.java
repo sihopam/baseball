@@ -7,13 +7,13 @@ import android.util.DisplayMetrics;
 /**
  * Created by Administrator on 2015-11-27.
  */
-public class Pop1 extends Activity {
+public class Pop1 extends Activity{
 
+    static public int pop_num;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        setContentView(R.layout.pop_team1);
+        setContentView(pop_num);
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -21,6 +21,6 @@ public class Pop1 extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int)(width*.8),(int) (height*.6));
+        getWindow().setLayout((int) (width * .8), (int) (height * .6));
     }
 }

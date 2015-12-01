@@ -17,65 +17,15 @@
 
         <activity android:name=".Splash"
             android:screenOrientation="portrait"/>
+        <activity android:name=".Search_Player"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Play_Song"
+            android:screenOrientation="portrait"/>
         <activity android:name=".team1"
             android:screenOrientation="portrait"/>
-        <activity android:name=".team2"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team3"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team4"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team5"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team6"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team7"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team8"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team9"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".team10"
-            android:screenOrientation="portrait" />
         <activity android:name=".stadium_map"
             android:screenOrientation="portrait"/>
         <activity android:name=".Pop1"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop2"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop3"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop4"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop5"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop6"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop7"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop8"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop9"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Pop10"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.CustomTheme">
         </activity>

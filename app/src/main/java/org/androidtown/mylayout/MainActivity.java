@@ -25,15 +25,17 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                team1.team_num=R.layout.activity_team1;
                 Intent intent1 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent1);
             }
         });
         ImageButton button2 = (ImageButton) findViewById(R.id.button2);
-                button2.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v){
-            Intent intent2 = new Intent(MainActivity.this, team2.class);
+                team1.team_num=R.layout.activity_team2;
+            Intent intent2 = new Intent(MainActivity.this, team1.class);
             startActivity(intent2);
             }
         });
@@ -42,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent3 = new Intent(MainActivity.this, team3.class);
+                team1.team_num=R.layout.activity_team3;
+                Intent intent3 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent3);
             }
         });
@@ -51,7 +54,8 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent4 = new Intent(MainActivity.this, team4.class);
+                team1.team_num=R.layout.acvitivy_team4;
+                Intent intent4 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent4);
 
             }
@@ -61,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent5 = new Intent(MainActivity.this, team5.class);
+                team1.team_num=R.layout.activity_team5;
+                Intent intent5 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent5);
 
             }
@@ -71,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
         button6.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent6 = new Intent(MainActivity.this, team6.class);
+                team1.team_num=R.layout.activity_team6;
+                Intent intent6 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent6);
                 overridePendingTransition(R.anim.fade, R.anim.cycle_7);
 
@@ -82,7 +88,8 @@ public class MainActivity extends AppCompatActivity {
         button7.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent7 = new Intent(MainActivity.this, team7.class);
+                team1.team_num=R.layout.activity_team7;
+                Intent intent7 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent7);
 
             }
@@ -92,7 +99,8 @@ public class MainActivity extends AppCompatActivity {
         button8.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent8 = new Intent(MainActivity.this, team8.class);
+                team1.team_num=R.layout.activity_team8;
+                Intent intent8 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent8);
             }
         });
@@ -101,7 +109,8 @@ public class MainActivity extends AppCompatActivity {
         button9.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent9 = new Intent(MainActivity.this, team9.class);
+                team1.team_num=R.layout.activity_team9;
+                Intent intent9 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent9);
             }
         });
@@ -110,7 +119,8 @@ public class MainActivity extends AppCompatActivity {
         button10.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v){
-                Intent intent10 = new Intent(MainActivity.this, team10.class);
+                team1.team_num=R.layout.activity_team10;
+                Intent intent10 = new Intent(MainActivity.this, team1.class);
                 startActivity(intent10);
             }
         });

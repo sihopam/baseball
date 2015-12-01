@@ -27,6 +27,14 @@ public class choice extends AppCompatActivity{
                 startActivity(intent1);
             }
         });
+        ImageButton choice2 = (ImageButton) findViewById(R.id.choice2);
+        choice2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(choice.this, Search_Player.class);
+                startActivity(intent2);
+            }
+        });
         ImageButton choice3 = (ImageButton) findViewById(R.id.choice3);
         choice3.setOnClickListener(new View.OnClickListener() {
             @Override
