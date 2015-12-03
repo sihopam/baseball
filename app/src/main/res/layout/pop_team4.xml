@@ -8,6 +8,14 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="삼성"
         android:id="@+id/textView15"
-        android:layout_x="216dp"
-        android:layout_y="352dp" />
+        android:layout_x="151dp"
+        android:layout_y="29dp"
+        android:textSize="40dp" />
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="369dp"
+        android:id="@+id/imageView5"
+        android:layout_x="11dp"
+        android:layout_y="69dp"
+        android:src="@drawable/samsung_stadium"/>
 </AbsoluteLayout>

@@ -3,11 +3,19 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="201dp"
-        android:layout_height="140dp"
+        android:layout_width="96dp"
+        android:layout_height="63dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="엔씨"
+        android:text="NC"
+        android:textSize="40dp"
         android:id="@+id/textView17"
-        android:layout_x="198dp"
-        android:layout_y="323dp" />
+        android:layout_x="138dp"
+        android:layout_y="16dp" />
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="369dp"
+        android:id="@+id/imageView5"
+        android:layout_x="10dp"
+        android:layout_y="70dp"
+        android:src="@drawable/nexen_stadium"/>
 </AbsoluteLayout>

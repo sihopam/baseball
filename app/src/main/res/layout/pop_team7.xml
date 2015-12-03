@@ -3,11 +3,19 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="223dp"
-        android:layout_height="110dp"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="에스케이"
+        android:text="sk"
+        android:textSize="40dp"
         android:id="@+id/textView18"
-        android:layout_x="266dp"
-        android:layout_y="375dp" />
+        android:layout_x="150dp"
+        android:layout_y="16dp" />
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="369dp"
+        android:id="@+id/imageView5"
+        android:layout_x="10dp"
+        android:layout_y="57dp"
+        android:src="@drawable/sk_stadium"/>
 </AbsoluteLayout>

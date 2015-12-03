@@ -6,8 +6,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="엘지"
+        android:text="LG"
+        android:textSize="40dp"
         android:id="@+id/textView16"
-        android:layout_x="187dp"
-        android:layout_y="364dp" />
+        android:layout_x="179dp"
+        android:layout_y="20dp" />
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="369dp"
+        android:id="@+id/imageView5"
+        android:layout_x="10dp"
+        android:layout_y="48dp"
+        android:src="@drawable/lg_stadium"/>
 </AbsoluteLayout>

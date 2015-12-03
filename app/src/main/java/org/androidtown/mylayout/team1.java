@@ -23,27 +23,27 @@ public class team1 extends AppCompatActivity {
     }
 
         public void Button11(View v){
-            music=m.play(music,"choijinhang",this,count);
+            music=m.play(music,"kimtaekyun",this,count);
             count=m.count();
         }
         public void Button12(View v){
-            music=m.play(music,"joinsung",this,count);
+            music=m.play(music,"choijinhang",this,count);
             count=m.count();
         }
         public void Button13(View v){
-            music=m.play(music,"joohyungsang",this,count);
+            music=m.play(music,"joinsung",this,count);
             count=m.count();
         }
         public void Button14(View v){
-            music=m.play(music,"junggeunwoo",this,count);
+            music=m.play(music,"joohyunsang",this,count);
             count=m.count();
         }
         public void Button15(View v){
-            music=m.play(music,"kimkyungun",this,count);
+            music=m.play(music,"junggeunwoo",this,count);
             count=m.count();
         }
         public void Button16(View v){
-            music=m.play(music,"kimtaekyun",this,count);
+            music=m.play(music,"kimkyungun",this,count);
             count=m.count();
         }
         public void Button17(View v){
@@ -195,7 +195,7 @@ public class team1 extends AppCompatActivity {
         count=m.count();
     }
     public void Button57(View v){
-        music=m.play(music,"seosanghoon5",this,count);
+        music=m.play(music,"seosangwoo5",this,count);
         count=m.count();
     }
     public void Button58(View v){

@@ -7,7 +7,15 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="두산"
+        android:textSize="40dp"
         android:id="@+id/textView20"
-        android:layout_x="201dp"
-        android:layout_y="352dp" />
+        android:layout_x="160dp"
+        android:layout_y="28dp" />
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="369dp"
+        android:id="@+id/imageView5"
+        android:layout_x="13dp"
+        android:layout_y="75dp"
+        android:src="@drawable/doosan_stadium"/>
 </AbsoluteLayout>

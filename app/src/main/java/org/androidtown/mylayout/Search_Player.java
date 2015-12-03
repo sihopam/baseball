@@ -12,7 +12,8 @@ import android.widget.AutoCompleteTextView;
  * Created by hhe on 2015-12-01.
  */
 public class Search_Player extends Activity{
-    String[] items = {"himenes","leebyunggyu","leejinyoung","ohjihwan","parkjigyu","parkyongtak","seosanghoon","yangsukhwan","yoogangnam"};
+    String[] items = {"himenes","leebyunggyu","leejinyoung","ohjihwan","parkjigyu","parkyongtak","seosangwoo","yangsukhwan","yoogangnam",
+            "히메네스","이병규","이진영","오지환","박지규","박용택","서상우","양석환","유강남"};
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

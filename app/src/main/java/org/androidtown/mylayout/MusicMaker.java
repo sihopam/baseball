@@ -22,6 +22,9 @@ public class MusicMaker {
 
         switch (b) {
 
+            case "kimtaekyun" :
+                c = R.raw.kimtaekyun;
+                break;
             case "choijinhang":
                 c = R.raw.choijinhang;
                 break;
@@ -37,9 +40,7 @@ public class MusicMaker {
             case "kimkyungun" :
                 c = R.raw.kimkyungun;
                 break;
-            case "kimtaekyun" :
-                c = R.raw.kimtaekyun;
-                break;
+
             case "leesungyul" :
                 c = R.raw.leesungyul;
                 break;
@@ -154,7 +155,7 @@ public class MusicMaker {
             case "parkyongtak5" :
                 c = R.raw.parkyongtak5;
                 break;
-            case "seosanghoon5" :
+            case "seosangwoo5" :
                 c = R.raw.seosangwoo5;
                 break;
             case "yangsukhwan5" :
