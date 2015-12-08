@@ -6,17 +6,18 @@
     android:background="#ffffff">
 
     <TextView
-        android:layout_width="94dp"
+        android:layout_width="274dp"
         android:layout_height="78dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="SK"
+        android:text="SK 와이번스"
         android:id="@+id/textView8"
         android:layout_gravity="center_horizontal"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:layout_marginTop="30dp" />
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="709dp"
+        android:layout_height="700dp"
         android:layout_gravity="bottom|center">
 
         <ImageButton

@@ -13,6 +13,8 @@ import android.widget.ImageButton;
  */
 public class choice extends AppCompatActivity{
 
+    private Back_Key back_handler;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choice);
@@ -44,5 +46,10 @@ public class choice extends AppCompatActivity{
             }
         });
 
+        back_handler=new Back_Key(this);
+
+    }
+    public void onBackPressed(){
+        back_handler.onBackPressed();
     }
 }

@@ -10,8 +10,10 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="708dp"
-        android:layout_marginTop="100dp">
+        android:layout_height="700dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/eew"
+        android:layout_gravity="bottom">
 
         <ImageButton
             android:layout_width="215dp"
@@ -25,14 +27,15 @@
             android:onClick="Button11" />
 
         <ImageButton
-            android:layout_width="217dp"
-            android:layout_height="211dp"
+            android:layout_width="207dp"
+            android:layout_height="203dp"
             android:id="@+id/Button12"
             android:background="@drawable/choijinhang"
             android:layout_alignParentTop="true"
             android:layout_toStartOf="@+id/textView2"
             android:layout_gravity="center_horizontal|top"
-            android:onClick="Button12" />
+            android:onClick="Button12"
+            android:layout_marginTop="5dp" />
 
         <ImageButton
             android:layout_width="217dp"
@@ -124,6 +127,7 @@
         android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_marginTop="30dp"
+        android:textSize="50dp" />
 
 </FrameLayout>

@@ -8,7 +8,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="한화"
         android:id="@+id/textView13"
-        android:layout_x="143dp"
+        android:layout_x="207dp"
         android:layout_y="14dp"
         android:textSize="40dp" />
 
@@ -16,8 +16,16 @@
         android:layout_width="343dp"
         android:layout_height="369dp"
         android:id="@+id/imageView5"
-        android:layout_x="9dp"
-        android:layout_y="80dp"
+        android:layout_x="66dp"
+        android:layout_y="55dp"
         android:src="@drawable/hanhwa_stadium"/>
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="80dp"
+        android:id="@+id/pop1"
+        android:layout_x="64dp"
+        android:layout_y="417dp"
+        android:textSize="30dp" />
 
 </AbsoluteLayout>

@@ -9,13 +9,21 @@
         android:text="sk"
         android:textSize="40dp"
         android:id="@+id/textView18"
-        android:layout_x="150dp"
-        android:layout_y="16dp" />
+        android:layout_x="209dp"
+        android:layout_y="24dp" />
     <ImageView
         android:layout_width="343dp"
         android:layout_height="369dp"
         android:id="@+id/imageView5"
-        android:layout_x="10dp"
-        android:layout_y="57dp"
+        android:layout_x="70dp"
+        android:layout_y="64dp"
         android:src="@drawable/sk_stadium"/>
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop7"
+        android:layout_x="76dp"
+        android:layout_y="417dp"
+        android:textSize="30dp" />
 </AbsoluteLayout>

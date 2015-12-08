@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/qwe">
 
     <TextView
         android:layout_width="wrap_content"
@@ -9,13 +10,21 @@
         android:text="LG"
         android:textSize="40dp"
         android:id="@+id/textView16"
-        android:layout_x="179dp"
-        android:layout_y="20dp" />
+        android:layout_x="241dp"
+        android:layout_y="22dp" />
     <ImageView
         android:layout_width="343dp"
         android:layout_height="369dp"
         android:id="@+id/imageView5"
-        android:layout_x="10dp"
-        android:layout_y="48dp"
+        android:layout_x="72dp"
+        android:layout_y="50dp"
         android:src="@drawable/lg_stadium"/>
+
+    <TextView
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop5"
+        android:layout_x="66dp"
+        android:layout_y="391dp"
+        android:textSize="30dp" />
 </AbsoluteLayout>

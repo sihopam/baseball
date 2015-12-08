@@ -9,8 +9,8 @@
         android:layout_width="343dp"
         android:layout_height="369dp"
         android:id="@+id/imageView5"
-        android:layout_x="16dp"
-        android:layout_y="55dp"
+        android:layout_x="83dp"
+        android:layout_y="48dp"
         android:src="@drawable/kia_stadium"/>
 
     <TextView
@@ -19,8 +19,16 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="기아"
         android:id="@+id/textView14"
-        android:layout_x="144dp"
-        android:layout_y="27dp"
+        android:layout_x="211dp"
+        android:layout_y="20dp"
         android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop2"
+        android:layout_x="68dp"
+        android:layout_y="404dp"
+        android:textSize="30dp" />
 
 </AbsoluteLayout>

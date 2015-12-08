@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/qw">
 
     <TextView
         android:layout_width="wrap_content"
@@ -8,14 +9,22 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="삼성"
         android:id="@+id/textView15"
-        android:layout_x="151dp"
-        android:layout_y="29dp"
+        android:layout_x="205dp"
+        android:layout_y="16dp"
         android:textSize="40dp" />
     <ImageView
         android:layout_width="343dp"
         android:layout_height="369dp"
         android:id="@+id/imageView5"
-        android:layout_x="11dp"
-        android:layout_y="69dp"
+        android:layout_x="64dp"
+        android:layout_y="57dp"
         android:src="@drawable/samsung_stadium"/>
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pop4"
+        android:layout_x="61dp"
+        android:layout_y="411dp"
+        android:textSize="30dp" />
 </AbsoluteLayout>

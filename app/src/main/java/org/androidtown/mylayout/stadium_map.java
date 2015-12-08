@@ -86,7 +86,7 @@ public class stadium_map extends AppCompatActivity {
         map_team9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Pop1.pop_num=R.layout.pop_team9;
+                Pop1.pop_num = R.layout.pop_team9;
                 startActivity(new Intent(stadium_map.this, Pop1.class));
             }
         });
@@ -94,7 +94,7 @@ public class stadium_map extends AppCompatActivity {
         map_team10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Pop1.pop_num=R.layout.pop_team10;
+                Pop1.pop_num = R.layout.pop_team10;
                 startActivity(new Intent(stadium_map.this, Pop1.class));
             }
         });

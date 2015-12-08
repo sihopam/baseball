@@ -18,11 +18,12 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="697dp"
+        android:layout_height="700dp"
         android:layout_weight="0.32"
         android:layout_marginTop="100dp"
         android:onClick="Button62"
-        android:background="#ffffff">
+        android:background="#ffffff"
+        android:layout_gravity="bottom">
 
         <ImageButton
             android:layout_width="180dp"
@@ -58,7 +59,7 @@
             android:layout_gravity="left|center_vertical"
             android:background="@drawable/leehojun_name"
             android:onClick="Button64"
-            android:layout_marginTop="25dp" />
+            android:layout_marginTop="5dp" />
 
         <ImageButton
             android:layout_width="180dp"
@@ -67,7 +68,7 @@
             android:layout_gravity="center"
             android:background="@drawable/leejongwook_name"
             android:onClick="Button65"
-            android:layout_marginTop="25dp" />
+            android:layout_marginTop="5dp" />
 
         <ImageButton
             android:layout_width="180dp"
@@ -76,35 +77,32 @@
             android:layout_gravity="right|center_vertical"
             android:background="@drawable/nasungbeom_name"
             android:onClick="Button66"
-            android:layout_marginTop="25dp" />
+            android:layout_marginTop="5dp" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="232dp"
+            android:id="@+id/Button67"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/parkminwoo_name"
+            android:onClick="Button67" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="232dp"
+            android:id="@+id/Button68"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/sonsiheon_name"
+            android:onClick="Button68" />
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="232dp"
+            android:id="@+id/Button69"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/thames_name"
+            android:onClick="Button69" />
 
     </FrameLayout>
-
-    <ImageButton
-        android:layout_width="180dp"
-        android:layout_height="232dp"
-        android:id="@+id/Button68"
-        android:layout_gravity="center_horizontal|bottom"
-        android:background="@drawable/sonsiheon_name"
-        android:onClick="Button68"
-        android:layout_marginBottom="20dp" />
-
-    <ImageButton
-        android:layout_width="180dp"
-        android:layout_height="232dp"
-        android:id="@+id/Button67"
-        android:layout_gravity="left|bottom"
-        android:background="@drawable/parkminwoo_name"
-        android:onClick="Button67"
-        android:layout_marginBottom="20dp" />
-
-    <ImageButton
-        android:layout_width="180dp"
-        android:layout_height="232dp"
-        android:id="@+id/Button69"
-        android:layout_gravity="right|bottom"
-        android:background="@drawable/thames_name"
-        android:onClick="Button69"
-        android:layout_marginBottom="20dp" />
 
 </FrameLayout>
