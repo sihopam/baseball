@@ -17,6 +17,7 @@ public class stadium_map extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.stadium_map);
+
         ImageButton map_team1 = (ImageButton) findViewById(R.id.map_team1);
                 map_team1.setOnClickListener(new View.OnClickListener() {
                     @Override

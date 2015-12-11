@@ -862,21 +862,6 @@ public class Play_Song extends Activity {
 
     }
     public void play(View v) {
-        /*if(music.isPlaying()){
-            // 재생중이면 실행될 작업 (정지)
-            music.stop();
-            try {
-                music.prepare();
-            } catch (IllegalStateException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-        }else{
-            music.start();
-
-        }*/
         music.start();
     }
 
